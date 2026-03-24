@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UGADI 2026 Contributions</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("background.jpg") no-repeat center center/cover;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    background: rgba(240, 223, 180, 0.5);
+    padding:35px;
+    border-radius:20vw;
+    text-align:center;
+    width:70%;
+    max-width:400px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+.logo{
+    width:120px;
+    margin-bottom:15px;
+}
+
+h1{
+    margin-top:0;
+    color:#333;
+    font-size:22px;
+}
+
+p{
+    color:#666;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+.button{
+    display:block;
+    margin:12px 0;
+    padding:14px;
+    background:#cc6705;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    transition:0.25s;
+}
+
+.button:hover{
+    background:#ba6008;
+    transform:scale(1.03);
+}
+
+@media (min-width: 900px) {
+    body {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#fff;
+    }
+
+    .container {
+        display:none;
+    }
+
+    body::before{
+        content:"Sorry, this page is available only on mobile devices. Please open this link from your phone. Thank You";
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        padding:40px;
+        font-size:20px;
+        color:#333;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- Logo Slot -->
+<img src="logo.png" class="logo" alt="Logo">
+
+<h1>Thank you for contributing to Ugadi 2026</h1>
+
+<p>Please select one of the UPI payment links below to proceed.</p>
+
+<a href="upi://pay?pa=rithvikraogandra150705@oksbi&pn=Rithvik%20Rao&aid=uGICAgID9iJrPZQ&am=200&cu=INR&tn=Payment" class="button">UPI Payment Link 1</a>
+<a href="upi://pay?pa=kvaraprasad1312@okhdfcbank&pn=Kondapalli%20Vara%20Prasad&aid=uGICAgMCA9sXXcw&am=200&cu=INR&tn=Payment" class="button">UPI Payment Link 2</a>
+<a href="upi://pay?pa=9014117118@ybl&pn=Pedapudi%20Veera%20Venkata%20Eswar%20Gowtham&mc=0000&mode=02&purpose=00&am=200&cu=INR&tn=Payment" class="button">UPI Payment Link 3</a>
+<a href="upi://pay?pa=shanthikiran2@okhdfcbank&pn=Shankar%20narayan&aid=uGICAgIDjzeuZaA&am=200&cu=INR&tn=Payment" class="button">UPI Payment Link 4</a>
+
+</div>
+
+</body>
+</html>
